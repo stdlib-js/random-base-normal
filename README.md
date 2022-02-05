@@ -30,8 +30,26 @@ limitations under the License.
 
 ## Usage
 
+To use in Observable,
+
 ```javascript
-var normal = require( '@stdlib/random-base-normal' );
+normal = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@umd/bundle.js' )
+```
+
+To include the bundle in a webpage,
+
+```html
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@umd/bundle.js"></script>
+```
+
+If no recognized module system is present, access bundle contents via the global scope:
+
+```html
+<script type="text/javascript">
+(function () {
+    window.normal;
+})()
+</script>
 ```
 
 #### normal( mu, sigma )
@@ -368,8 +386,13 @@ var o = rand.toJSON();
 
 <!-- eslint no-undef: "error" -->
 
-```javascript
-var normal = require( '@stdlib/random-base-normal' );
+```html
+<!DOCTYPE html>
+<html lang="en">
+<body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@umd/bundle.js"></script>
+<script type="text/javascript">
+(function () {
 
 var seed;
 var rand;
@@ -396,6 +419,11 @@ rand = normal.factory( 0.0, 1.0, {
 for ( i = 0; i < 100; i++ ) {
     console.log( rand() );
 }
+
+})()
+</script>
+</body>
+</html>
 ```
 
 </section>
@@ -462,6 +490,13 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 -->
 
+[umd]: https://github.com/umdjs/umd
+[es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
+
+[deno-url]: https://github.com/stdlib-js/random-base-normal/tree/deno
+[umd-url]: https://github.com/stdlib-js/random-base-normal/tree/umd
+[esm-url]: https://github.com/stdlib-js/random-base-normal/tree/esm
+
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
 
@@ -473,7 +508,7 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 
 [normal]: https://en.wikipedia.org/wiki/Normal_distribution
 
-[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
+[@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32/tree/umd
 
 </section>
 
