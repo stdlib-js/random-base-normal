@@ -42,13 +42,13 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@esm/index.mjs';
+import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@esm/index.mjs';
+import { factory } from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@v0.1.0-esm/index.mjs';
 ```
 
 #### normal( mu, sigma )
@@ -391,7 +391,7 @@ var o = rand.toJSON();
 <body>
 <script type="module">
 
-import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@esm/index.mjs';
+import normal from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-normal@v0.1.0-esm/index.mjs';
 
 var seed;
 var rand;
