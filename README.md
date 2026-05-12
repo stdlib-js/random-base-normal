@@ -442,6 +442,7 @@ for ( i = 0; i < 100; i++ ) {
 -   <span class="package-name">[`@stdlib/random-array/normal`][@stdlib/random/array/normal]</span><span class="delimiter">: </span><span class="description">create an array containing pseudorandom numbers drawn from a normal distribution.</span>
 -   <span class="package-name">[`@stdlib/random-iter/normal`][@stdlib/random/iter/normal]</span><span class="delimiter">: </span><span class="description">create an iterator for generating pseudorandom numbers drawn from a normal distribution.</span>
 -   <span class="package-name">[`@stdlib/random-streams/normal`][@stdlib/random/streams/normal]</span><span class="delimiter">: </span><span class="description">create a readable stream for generating pseudorandom numbers drawn from a normal distribution.</span>
+-   <span class="package-name">[`@stdlib/random-normal`][@stdlib/random/normal]</span><span class="delimiter">: </span><span class="description">generate pseudorandom numbers drawn from a normal distribution.</span>
 
 </section>
 
@@ -530,6 +531,8 @@ Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 [@stdlib/random/iter/normal]: https://github.com/stdlib-js/random-iter-normal
 
 [@stdlib/random/streams/normal]: https://github.com/stdlib-js/random-streams-normal
+
+[@stdlib/random/normal]: https://github.com/stdlib-js/random-normal
 
 <!-- </related-links> -->
 
